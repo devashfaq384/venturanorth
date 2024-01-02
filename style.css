@@ -1,0 +1,326 @@
+:root{
+    --green:rgb(139,197,61);
+}
+*{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+}
+.color-green{
+   color: var(--green); 
+}
+.bg-green{
+    background-color: var(--green);
+}
+.header{
+    background-color: var(--green);
+    color: white;
+    font-family: "Montserrat", Sans-serif;
+    font-weight: 600;
+    height: auto;
+    font-size: 1rem;
+}
+.heading{
+    letter-spacing: 1px;
+}
+.navbar{
+    box-sizing: border-box;
+}
+.nav-item{
+    box-sizing: border-box;
+    display: flex;
+    text-align: center;
+    min-height: auto;
+    min-width: auto;
+}
+.nav-link{
+    text-align: center;
+    color: black;
+    font-family: "Montserrat", Sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+    transition: 0.2s all;
+}
+.nav-link:active{
+    text-align: center;
+    color: var(--green);
+    border-bottom: 4px solid var(--green);
+}
+.nav-link:hover{
+    text-align: center;
+    color: var(--green);
+    border-bottom: 4px solid var(--green);
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 12%;
+}
+@media only screen and (max-width: 770px){
+    .navbar-nav{
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-around;
+    }
+    .nav-link{
+        transition: none;
+    }
+    .nav-item:hover{
+        margin: 2px 0 2px 0;
+        border-radius: 5px;
+        width: 250px;
+        color: white;
+        text-align: center;
+        background-color: rgb(32, 32, 32);
+    }
+    .nav-link:hover{
+        text-align: center;
+        font-weight: bold;
+        border: none;
+        width: 250px;
+        color: white;
+    }
+    .nav-link:focus{
+        border-radius: 5px;
+        width: 250px;
+        text-align: center;
+        background-color: rgb(32, 32, 32);
+    }
+    .nav-link:active{
+        border-radius: 5px;
+        width: 250px;
+        text-align: center;
+        background-color: rgb(32, 32, 32);
+    }
+}
+.head{
+    background-image: url(./images/Untitled\ design.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+.head-over{
+    background-color: rgba(36, 35, 35, 0.6);
+    height: 100%;
+}
+.header-sec{
+    padding-top: 80px;
+}
+.first{
+    color: white;
+    font-size: 45px;
+}
+.second{
+    color: var(--green);
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+}
+@media only screen and (max-width: 770px){
+    .first{
+        font-size: 35px;
+    }
+    .second{
+        font-size: 15px;
+    }
+    .header-sec{
+        padding-top: 30px;
+    }
+}
+.offer-btn{
+    margin-left: 15px;
+    background-color: var(--green);
+    color: white;
+    width: 200px;
+    padding: 5px;
+}
+.sell-offer-heading{
+    font-size: 40px;
+    font-family: Cabin,Sans-serif;
+    line-height: 48px;
+}
+.sell-list li{
+    font-size: 18px;
+    line-height: 45px;
+
+}
+.sell-offer{
+    padding: 10px 0 10px 0;
+}
+.bg-offer{
+    background-color: rgba(255, 255, 255, 0.6);
+}
+@media only screen and (max-width:995px){
+    .first{
+        font-size: 30;
+    }
+    .second{
+        font-size: 12px;
+    }
+}
+.sell-land{
+    font-family: -apple-system;
+    box-sizing: border-box;
+    background-image: url(./images/download.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    /* width: 100%; */
+    height: auto;
+}
+.sell-land-list li{
+    font-family: Cabin,Sans-serif;
+    font-size: 24px;
+    line-height: 56px;
+    /* font-weight: bold; */
+    /* margin: 20px 0 20px 0; */
+}
+.bi-circle-fill{
+    color: var(--green);
+}
+.land-head{
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 600;
+}
+.fast{
+    font-family: Montserrat,sans-serif;
+    color: var(--green);
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: 500;
+}
+.buy-land{
+    margin-top: 40px;
+}
+.h{
+    font-family: Cabin,sans-serif;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 600;
+}
+.buy-land > p{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+@media only screen and (max-width:1100px){
+    .sell-land-list li{
+        font-size: 19px;
+        /* font-weight: bold; */
+        margin: 8px 0 8px 0;
+    }
+    .fast{
+        font-size: 1.4rem;
+    }
+    .buy-land{
+        margin-top: 20px;
+    }
+}
+.work-proccess{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding-left: 50px;
+    padding-top: 60px;
+    padding-bottom: 40px; */
+    padding: 85px 10px 0px 55px;
+}
+.work-proccess p{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+}
+.work{
+    font-family: Montserrat,sans-serif;
+    color: white;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 600;
+}
+.step{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 45px 30px 45px 30px;
+    background-color: rgb(26, 25, 25);
+}
+.step i{
+    color: var(--green);
+    font-size: 50px;
+}
+.faq-heading{
+    font-family: Montserrat,sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 32px;
+    border-bottom: 5px solid var(--green);
+}
+.accordion-button:focus{
+    color: white;
+    outline: none;
+    border: none;
+    background-color: var(--green);
+}
+.accordion-button:active{
+    color: white;
+    outline: none;
+    border: none;
+    background-color: var(--green);
+}
+.accordion-header:focus{
+    outline: none;
+    border: none;
+    color: white;
+    background-color: var(--green);
+}
+.accordion-header:active{
+    color: white;
+    background-color: var(--green);
+}
+.accordion-button{
+    text-decoration: none;
+}
+.offer-btn-last{
+    margin-left: 15px;
+    background-color: var(--green);
+    color: white;
+    border: 1px solid white;
+    width: 200px;
+    padding: 5px;
+}
+.icons{
+    cursor: pointer;
+}
+.icons > .bi{
+    color: white;
+    padding: 3px 7px 3px 7px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+.icons > .bi:hover{
+    color: antiquewhite;
+}
+.copyright{
+    margin-top: 20px;
+}
+.copyright > span{
+    color: rgb(56, 55, 55);
+    font-size: 16px;
+    line-height: 16px;
+    font-family: Montserrat,sans-serif;    
+}
+.last-sell{
+    padding: 100px 0 90px 0;
+}
+.last-sell span{
+    font-family: Cabin,sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 32px;
+}
+footer > img{
+    width: 15%;
+}
